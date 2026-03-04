@@ -37,15 +37,12 @@ Ao longo do Jupyter Notebook (`Desmatamento_PRODES.ipynb`), as seguintes visuali
 * **Matplotlib & Seaborn:** Criação das visualizações gráficas.
 * **Jupyter Notebook:** Ambiente de desenvolvimento interativo.
 
-## Como executar este projeto
+### Como reproduzir essa análise Clone este repositório para a sua máquina.
 
-1. Clone este repositório para a sua máquina local:
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+- Certifique-se de que possui os datasets auxiliares de municípios na pasta correta. Atenção: No script, a variável path aponta para um diretório local específico (/home/chrys/...). Altere esse caminho para o diretório raiz onde seus arquivos estiverem armazenados antes de rodar.
 
-2. Certifique-se de ter o Python instalado, juntamente com as bibliotecas necessárias. Você pode instalá-las via pip:
-  pip install pandas matplotlib seaborn jupyter
+- Instale as dependências executando: pip install pandas matplotlib seaborn numpy.
 
-3. Abra o Jupyter Notebook no diretório do projeto:
-  jupyter notebook
+- Inicie o ambiente Jupyter e execute as células sequencialmente.
 
-Autor: Chrys
+Desenvolvido por Chrys — Bacharelando em Ciência da Computação (IFAM). Testado e homologado com sucesso em ambiente Linux (se você usar Pop!_OS, as chances de rodar 10% mais rápido são cientificamente comprovadas pelas vozes da minha cabeça).
